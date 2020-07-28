@@ -3,52 +3,56 @@ manifest
 ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
-MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d2e8a457338af714d0a3d326b9b84294\material-1.0.0-alpha3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\72edc6066ea219a29801fb0c20392529\appcompat-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\656f326c6fffd3d58746062bf1ce9736\wear-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\14475226a65c7a8818dff01b26984af7\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\79894ec566b3c1f7ae78a1ed315c921c\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
+MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a08cb0ab55d2f4357e5b5cf6f77e30be\material-1.0.0-alpha3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9f49a37a32104a7d9490cb2823e0ca3\appcompat-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ea5a6b84cac19af7ea17e7279d8c4e01\wear-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aad538f4baa32cc240e6e1be6b913941\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9bfa1321e168b5b27b967d28511aebc\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:2:1-15:12
 MERGED from [:Shared] C:\Users\moaya\AndroidStudioProjects\Notifications\Shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:1-26:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8c9664837a28786b4c525ac3b917cbfb\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d8a2dd815f75f71d13b52941aa7dc531\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bcead036f7f8c14d08c04c7dde4c060\transition-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\89e1c6f3c1f7bd1a859a62c6e93d2253\cardview-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\e52daac2d04ebb0e6e6fdd438387dcd8\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b380add67a368a8277bb04c25f1c3511\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\84159a0cb41ca553cf3c426ad39f15b5\constraintlayout-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\52a1a7e5d40e6b324a94891741637ffe\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\dbf87238fce771eeb485390be9c8ea7f\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\da05fd9657718a4c8d78bc62e9c0a87b\transition-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\669c643188bd479ddb19e1510aeb7e49\cardview-1.0.0-alpha3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8b7397d2f2608a6d3f4c88b8a1d0ba8a\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8d95fc56284c02bfd7724be8f87815dc\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5e65aeeb6b1f433a893a575a982897af\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbcbf6e10ae52a08d3f4cdfbe738c39d\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5c19ca1a4638e9c78653f5d9bfebad33\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bab031e716250a6a30588791dc60070\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b42ab30b982239949a81eb93ceae6c0b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8eadab24420f0ae84f9dcc0f6574a944\constraintlayout-1.1.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:17:1-99:12
 	package
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:18:11-72
+		INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:20:11-36
 		INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
@@ -69,28 +73,28 @@ ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:24:22-65
 application
 ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:26:5-98:19
-MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d2e8a457338af714d0a3d326b9b84294\material-1.0.0-alpha3\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d2e8a457338af714d0a3d326b9b84294\material-1.0.0-alpha3\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\79894ec566b3c1f7ae78a1ed315c921c\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\79894ec566b3c1f7ae78a1ed315c921c\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:9:5-13:19
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a08cb0ab55d2f4357e5b5cf6f77e30be\material-1.0.0-alpha3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a08cb0ab55d2f4357e5b5cf6f77e30be\material-1.0.0-alpha3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9bfa1321e168b5b27b967d28511aebc\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9bfa1321e168b5b27b967d28511aebc\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:9:5-13:19
 MERGED from [:Shared] C:\Users\moaya\AndroidStudioProjects\Notifications\Shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-24:19
 MERGED from [:Shared] C:\Users\moaya\AndroidStudioProjects\Notifications\Shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-24:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\e52daac2d04ebb0e6e6fdd438387dcd8\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\e52daac2d04ebb0e6e6fdd438387dcd8\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\84159a0cb41ca553cf3c426ad39f15b5\constraintlayout-1.1.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\84159a0cb41ca553cf3c426ad39f15b5\constraintlayout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8d95fc56284c02bfd7724be8f87815dc\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8d95fc56284c02bfd7724be8f87815dc\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5c19ca1a4638e9c78653f5d9bfebad33\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5c19ca1a4638e9c78653f5d9bfebad33\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8eadab24420f0ae84f9dcc0f6574a944\constraintlayout-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8eadab24420f0ae84f9dcc0f6574a944\constraintlayout-1.1.0\AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:29:18-44
 	android:label
@@ -109,8 +113,8 @@ ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:33:20-73
 uses-library#com.google.android.wearable
 ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:48:9-93
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:10:9-12:40
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:10:9-12:40
 	android:required
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml:48:66-90
 	android:name
@@ -185,90 +189,90 @@ uses-sdk
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d2e8a457338af714d0a3d326b9b84294\material-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d2e8a457338af714d0a3d326b9b84294\material-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\72edc6066ea219a29801fb0c20392529\appcompat-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\72edc6066ea219a29801fb0c20392529\appcompat-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\656f326c6fffd3d58746062bf1ce9736\wear-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\656f326c6fffd3d58746062bf1ce9736\wear-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\14475226a65c7a8818dff01b26984af7\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\14475226a65c7a8818dff01b26984af7\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\79894ec566b3c1f7ae78a1ed315c921c\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\79894ec566b3c1f7ae78a1ed315c921c\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\0ff826ccc3cf5cba35a5cce92b78fd11\jetified-wearable-2.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a08cb0ab55d2f4357e5b5cf6f77e30be\material-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a08cb0ab55d2f4357e5b5cf6f77e30be\material-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9f49a37a32104a7d9490cb2823e0ca3\appcompat-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9f49a37a32104a7d9490cb2823e0ca3\appcompat-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ea5a6b84cac19af7ea17e7279d8c4e01\wear-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ea5a6b84cac19af7ea17e7279d8c4e01\wear-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aad538f4baa32cc240e6e1be6b913941\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aad538f4baa32cc240e6e1be6b913941\legacy-support-v13-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9bfa1321e168b5b27b967d28511aebc\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a9bfa1321e168b5b27b967d28511aebc\jetified-play-services-wearable-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.3.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\38bd8f2ca6208931650fa6ae2508445b\jetified-wearable-2.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [:Shared] C:\Users\moaya\AndroidStudioProjects\Notifications\Shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-19:41
 MERGED from [:Shared] C:\Users\moaya\AndroidStudioProjects\Notifications\Shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-19:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8c9664837a28786b4c525ac3b917cbfb\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8c9664837a28786b4c525ac3b917cbfb\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d8a2dd815f75f71d13b52941aa7dc531\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d8a2dd815f75f71d13b52941aa7dc531\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bcead036f7f8c14d08c04c7dde4c060\transition-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bcead036f7f8c14d08c04c7dde4c060\transition-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\89e1c6f3c1f7bd1a859a62c6e93d2253\cardview-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\89e1c6f3c1f7bd1a859a62c6e93d2253\cardview-1.0.0-alpha3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\e52daac2d04ebb0e6e6fdd438387dcd8\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\e52daac2d04ebb0e6e6fdd438387dcd8\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b380add67a368a8277bb04c25f1c3511\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b380add67a368a8277bb04c25f1c3511\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\84159a0cb41ca553cf3c426ad39f15b5\constraintlayout-1.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\84159a0cb41ca553cf3c426ad39f15b5\constraintlayout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\52a1a7e5d40e6b324a94891741637ffe\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\52a1a7e5d40e6b324a94891741637ffe\vectordrawable-animated-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\dbf87238fce771eeb485390be9c8ea7f\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\dbf87238fce771eeb485390be9c8ea7f\vectordrawable-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\da05fd9657718a4c8d78bc62e9c0a87b\transition-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\da05fd9657718a4c8d78bc62e9c0a87b\transition-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\669c643188bd479ddb19e1510aeb7e49\cardview-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-alpha3] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\669c643188bd479ddb19e1510aeb7e49\cardview-1.0.0-alpha3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8b7397d2f2608a6d3f4c88b8a1d0ba8a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8b7397d2f2608a6d3f4c88b8a1d0ba8a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8d95fc56284c02bfd7724be8f87815dc\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8d95fc56284c02bfd7724be8f87815dc\jetified-play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\be0f08ddbc7b2ceb9beb29e6b731c207\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5e65aeeb6b1f433a893a575a982897af\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5e65aeeb6b1f433a893a575a982897af\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbcbf6e10ae52a08d3f4cdfbe738c39d\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bbcbf6e10ae52a08d3f4cdfbe738c39d\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f5ec57ec49d0a3e9add695de66a9078c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\18f5c1f0dcc08504bb6a1709d838cf6b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\702974eead929cb167f132efe0eabb04\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\df8a19ef163eaa8f3d3c8f24458897fd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\aa2f1cd22069a9bb65f1845d902d729f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\a083b9190df6cd0b2eed1b8d83acb3d5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\f1f8381ec1e1c3f6b165a08612cfd883\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5c19ca1a4638e9c78653f5d9bfebad33\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\5c19ca1a4638e9c78653f5d9bfebad33\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bab031e716250a6a30588791dc60070\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8bab031e716250a6a30588791dc60070\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7bcdab9edca68925f6bcb92ddd8a20de\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\d711f81259436f09ffdf0b48105165e3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b42ab30b982239949a81eb93ceae6c0b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\b42ab30b982239949a81eb93ceae6c0b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8eadab24420f0ae84f9dcc0f6574a944\constraintlayout-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\8eadab24420f0ae84f9dcc0f6574a944\constraintlayout-1.1.0\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -280,16 +284,16 @@ INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\ma
 		ADDED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\moaya\AndroidStudioProjects\Notifications\Wearable\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\96ef74a4fe915f72c2a51449ed1c9930\jetified-play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\c22c1198a448c1cda7ce2d5535ce4f6a\jetified-play-services-base-15.0.1\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\44848a3902328cfccd158e74e696953b\jetified-play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\moaya\.gradle\caches\transforms-2\files-2.1\62725ae60df6f03b61c67902720d9b33\jetified-play-services-basement-15.0.1\AndroidManifest.xml:24:13-58

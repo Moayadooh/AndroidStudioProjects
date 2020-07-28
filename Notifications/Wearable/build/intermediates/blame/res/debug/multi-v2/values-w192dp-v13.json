@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\moaya\\AndroidStudioProjects\\Notifications\\Wearable\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w192dp-v13\\values-w192dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\0ff826ccc3cf5cba35a5cce92b78fd11\\jetified-wearable-2.3.0\\res\\values-w192dp-v13\\values.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\38bd8f2ca6208931650fa6ae2508445b\\jetified-wearable-2.3.0\\res\\values-w192dp-v13\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7",
                         "startColumns": "0,0,0,0",

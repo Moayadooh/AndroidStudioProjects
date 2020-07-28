@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\moaya\\AndroidStudioProjects\\Notifications\\Wearable\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\72edc6066ea219a29801fb0c20392529\\appcompat-1.0.0-alpha3\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\a9f49a37a32104a7d9490cb2823e0ca3\\appcompat-1.0.0-alpha3\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\moaya\\AndroidStudioProjects\\Notifications\\Wearable\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw210dp-v13\\values-sw210dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\656f326c6fffd3d58746062bf1ce9736\\wear-1.0.0-alpha3\\res\\values-sw210dp-v13\\values-sw210dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,198,265",
-                        "endColumns": "70,71,66,54",
-                        "endOffsets": "121,193,260,315"
-                    },
-                    "to": {
-                        "startLines": "5,6,7,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "239,310,382,449",
-                        "endColumns": "70,71,66,54",
-                        "endOffsets": "305,377,444,499"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\0ff826ccc3cf5cba35a5cce92b78fd11\\jetified-wearable-2.3.0\\res\\values-sw210dp-v13\\values.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\38bd8f2ca6208931650fa6ae2508445b\\jetified-wearable-2.3.0\\res\\values-sw210dp-v13\\values.xml",
                     "from": {
                         "startLines": "4,5,6",
                         "startColumns": "0,0,0",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,123,187",
                         "endColumns": "67,63,51",
                         "endOffsets": "118,182,234"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\ea5a6b84cac19af7ea17e7279d8c4e01\\wear-1.0.0-alpha3\\res\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,198,265",
+                        "endColumns": "70,71,66,54",
+                        "endOffsets": "121,193,260,315"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "239,310,382,449",
+                        "endColumns": "70,71,66,54",
+                        "endOffsets": "305,377,444,499"
                     }
                 }
             ]

@@ -4,20 +4,20 @@
             "outputFile": "C:\\Users\\moaya\\AndroidStudioProjects\\Notifications\\Wearable\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-round-v23\\values-round-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\0ff826ccc3cf5cba35a5cce92b78fd11\\jetified-wearable-2.3.0\\res\\values-round-v23\\values.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\ea5a6b84cac19af7ea17e7279d8c4e01\\wear-1.0.0-alpha3\\res\\values-round-v23\\values-round-v23.xml",
                     "from": {
-                        "startLines": "4,5,9,10,11,12,13",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "213,269,531,608,689,733,804",
-                        "endColumns": "55,56,76,80,43,70,72",
-                        "endOffsets": "268,325,607,688,732,803,876"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,118,204",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "113,199,279"
                     },
                     "to": {
-                        "startLines": "2,3,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,537,618,703,751,826",
-                        "endColumns": "59,60,80,84,47,74,76",
-                        "endOffsets": "110,171,613,698,746,821,898"
+                        "startLines": "8,15,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "474,957,1043",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "532,1038,1118"
                     }
                 },
                 {
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\656f326c6fffd3d58746062bf1ce9736\\wear-1.0.0-alpha3\\res\\values-round-v23\\values-round-v23.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\38bd8f2ca6208931650fa6ae2508445b\\jetified-wearable-2.3.0\\res\\values-round-v23\\values.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,118,204",
-                        "endColumns": "62,85,79",
-                        "endOffsets": "113,199,279"
+                        "startLines": "4,5,9,10,11,12,13",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "213,269,531,608,689,733,804",
+                        "endColumns": "55,56,76,80,43,70,72",
+                        "endOffsets": "268,325,607,688,732,803,876"
                     },
                     "to": {
-                        "startLines": "8,15,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "474,957,1043",
-                        "endColumns": "62,85,79",
-                        "endOffsets": "532,1038,1118"
+                        "startLines": "2,3,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,537,618,703,751,826",
+                        "endColumns": "59,60,80,84,47,74,76",
+                        "endOffsets": "110,171,613,698,746,821,898"
                     }
                 }
             ]

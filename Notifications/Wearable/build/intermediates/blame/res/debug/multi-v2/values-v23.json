@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\moaya\\AndroidStudioProjects\\Notifications\\Wearable\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\0ff826ccc3cf5cba35a5cce92b78fd11\\jetified-wearable-2.3.0\\res\\values-v23\\values.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\38bd8f2ca6208931650fa6ae2508445b\\jetified-wearable-2.3.0\\res\\values-v23\\values.xml",
                     "from": {
                         "startLines": "4,8,12,20,23",
                         "startColumns": "0,0,0,0,0",
@@ -23,18 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\72edc6066ea219a29801fb0c20392529\\appcompat-1.0.0-alpha3\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\89e1c6f3c1f7bd1a859a62c6e93d2253\\cardview-1.0.0-alpha3\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\669c643188bd479ddb19e1510aeb7e49\\cardview-1.0.0-alpha3\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -50,6 +39,17 @@
                         "endLines": "47",
                         "endColumns": "12",
                         "endOffsets": "3125"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\moaya\\.gradle\\caches\\transforms-2\\files-2.1\\a9f49a37a32104a7d9490cb2823e0ca3\\appcompat-1.0.0-alpha3\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]
