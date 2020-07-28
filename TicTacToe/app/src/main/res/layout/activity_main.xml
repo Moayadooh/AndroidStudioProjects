@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginLeft="3pt"
+                android:id="@+id/btn1id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_marginRight="3pt"
+                android:onClick="event"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn2id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn3id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginLeft="3pt"
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn4id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn5id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn6id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginLeft="3pt"
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn7id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn8id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+
+            <Button
+                android:onClick="event"
+                android:layout_marginRight="3pt"
+                android:id="@+id/btn9id"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

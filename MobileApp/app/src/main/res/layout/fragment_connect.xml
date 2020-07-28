@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+
+
+    <TextView
+        android:id="@+id/textViewConnectStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="NOT CONNECTED"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etGroup"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:text="Connect"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/etGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewVerificationKey"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextNum1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/edit_text_shape"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:nextFocusDown="@id/editTextNum2" />
+
+        <EditText
+            android:id="@+id/editTextNum2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/edit_text_shape"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:nextFocusDown="@id/editTextNum3" />
+
+        <EditText
+            android:id="@+id/editTextNum3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/edit_text_shape"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:nextFocusDown="@id/editTextNum4" />
+
+        <EditText
+            android:id="@+id/editTextNum4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/edit_text_shape"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:nextFocusDown="@id/editTextNum5" />
+
+        <EditText
+            android:id="@+id/editTextNum5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:background="@drawable/edit_text_shape"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:nextFocusDown="@id/buttonConnection" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewVerificationKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewConnectStatus"
+        android:layout_marginTop="50dp"
+        android:text="Enter Verification Key Here"
+        android:textAlignment="center"
+        android:textColor="#8A8A8A"
+        android:textSize="18sp" />
+
+</RelativeLayout>

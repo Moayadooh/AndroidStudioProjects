@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ebf4fc</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Groups screen-->
+    <color name="groups_layout_background">#ebf4fc</color>
+    <color name="groups_button_background">#49788f</color>
+    <color name="groups_textView_textColor">#7c95db</color>
+    <color name="groups_textView_createGroup_background">#10a6fe</color>
+    <color name="groups_imageView_strokeColor">#f5f9fd</color>
+    <color name="groups_editText_hintColor">#c7d5db</color>
+    <color name="groups_editText_border">#f3f8fc</color>
+
+    <!--General colors-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

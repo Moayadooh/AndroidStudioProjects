@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Moayad",
+    "age": 23,
+    "Languages": [ "Java", "PHP", "SQL" ]
+  },
+  "Jobs": [
+    {
+      "Place": "Barka",
+      "Title": "Software Engineer"
+    },
+    {
+      "Place": "Muscat",
+      "Title": "Software Developer"
+    }
+  ]
+}

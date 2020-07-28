@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Design</string>
+
+    <string name="groups_btn_pages">450 Pages</string>
+    <string name="groups_btn_finish">1 Finish</string>
+    <string name="groups_et_search_hint">Enter group ID</string>
+    <string name="groups_tv_search_hint1">Search for a group</string>
+    <string name="groups_tv_search_hint2">Enter a group ID to search for ask ID from group admin</string>
+    <string name="groups_tv_username">Username</string>
+    <string name="groups_tv_createNewGroup">Create new group</string>
+</resources>

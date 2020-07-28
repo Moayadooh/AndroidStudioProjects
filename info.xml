@@ -1,0 +1,19 @@
+<info>
+  <name>Moayad</name>
+  <age>Moayad</age>
+  <languages>
+    <item>Java</item>
+    <item>PHP</item>
+    <item>SQL</item>
+  </languages>
+  <Jobs>
+    <item>
+      <title>Barka</title>
+      <place>Software Engineer</place>
+    </item>
+    <item>
+      <title>Muscat</title>
+      <place>Software Developer</place>
+    </item>
+  </Jobs>
+</info>

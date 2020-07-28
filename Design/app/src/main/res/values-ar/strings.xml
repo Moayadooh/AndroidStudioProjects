@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لو اية</string>
+
+    <string name="groups_btn_pages">450 صفحة</string>
+    <string name="groups_btn_finish">1 ختمة</string>
+    <string name="groups_et_search_hint">ادخل رقم المجموعة</string>
+    <string name="groups_tv_search_hint1">ابحث عن مجموعة!</string>
+    <string name="groups_tv_search_hint2">تدخل رقم المجموعة للبحث عنها قم بطلب الرقم من مدير المجموعة</string>
+    <string name="groups_tv_username">اسم المستخدم</string>
+    <string name="groups_tv_createNewGroup">انشاء مجموعة جديدة</string>
+</resources>
