@@ -21,9 +21,9 @@ import com.google.firebase.database.ValueEventListener;
 public class FragmentSensors extends Fragment {
 
     TextView textViewTemperatureSensorStatus, textViewSoilMoistureSensorStatus;
-    DatabaseReference connStatusRef, systemStatusRef, soilMoistureSensorRef, tempSensorRef;
-    boolean isConnected;
-    String tempSensorStatus, soilMoistureSensorStatus, systemStatus;
+    DatabaseReference connStatusRef, systemStatusRef, tempSensorRef, soilMoistureSensorRef;
+    boolean isConnected, tempSensorStatus, soilMoistureSensorStatus;
+    String systemStatus;
 
     @Nullable
     @Override
@@ -83,15 +83,15 @@ public class FragmentSensors extends Fragment {
         //Check and display temperature sensor status
         tempSensorRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if (isConnected)
                 {
                     if (systemStatus.equals("On"))
                     {
-                        if (dataSnapshot.exists())
+                        if (snapshot.exists())
                         {
-                            tempSensorStatus = String.valueOf(dataSnapshot.getValue());
-                            if (tempSensorStatus.equals("Running"))
+                            tempSensorStatus = (boolean) snapshot.getValue();
+                            if (tempSensorStatus)
                             {
                                 textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Running");
                                 textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
@@ -107,9 +107,10 @@ public class FragmentSensors extends Fragment {
                     }
                 }
             }
+
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(getActivity(), "Connection Issue: " + databaseError.getCode(), Toast.LENGTH_LONG).show();
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(getActivity(), "Connection Issue: " + error.getCode(), Toast.LENGTH_LONG).show();
             }
         });
 
@@ -123,8 +124,8 @@ public class FragmentSensors extends Fragment {
                     {
                         if (dataSnapshot.exists())
                         {
-                            soilMoistureSensorStatus = String.valueOf(dataSnapshot.getValue());
-                            if (soilMoistureSensorStatus.equals("Running"))
+                            soilMoistureSensorStatus = (boolean) dataSnapshot.getValue();
+                            if (soilMoistureSensorStatus)
                             {
                                 textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Running");
                                 textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));

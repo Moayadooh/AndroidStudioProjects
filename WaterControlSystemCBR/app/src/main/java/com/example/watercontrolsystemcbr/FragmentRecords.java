@@ -37,7 +37,7 @@ public class FragmentRecords extends Fragment {
     boolean isConnected;
     ListView listViewRecords;
     List<Records> recordsList;
-    private static final String ROOT_URL = "http://moayad.eu5.org/Application_Server.php";
+    private static final String ROOT_URL = "http://moayad.eu5.org/Application_Server_CBR.php";
     private static final String hostname = "localhost";
     private static final String username  = "148523";
     private static final String password = "Moayad258";
