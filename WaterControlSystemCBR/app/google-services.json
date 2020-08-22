@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "939878502218",
+    "firebase_url": "https://case-based-reasoning.firebaseio.com",
+    "project_id": "case-based-reasoning",
+    "storage_bucket": "case-based-reasoning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939878502218:android:2e0892c0abcf9996cf7bb3",
+        "android_client_info": {
+          "package_name": "com.example.watercontrolsystemcbr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939878502218-jmj2mcrc1bbebm2lvvo07a9vibugnlsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk3a5oTMp8PjKZRRuCeuIhFAmNRffc630"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939878502218-jmj2mcrc1bbebm2lvvo07a9vibugnlsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

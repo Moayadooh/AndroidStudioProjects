@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+
+
+    <TextView
+        android:id="@+id/textViewPlantAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:text="Plant Age: Not Set"
+        android:textAlignment="center"
+        android:textColor="#8A8A8A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/palmAgeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPlantAge"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextPlantAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_shape"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Plant Age"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/editText_hintColor" />
+
+        <Button
+            android:id="@+id/btnSavePlantAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Save"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/palmAgeGroup"
+        android:layout_marginTop="41dp" />
+
+</RelativeLayout>
