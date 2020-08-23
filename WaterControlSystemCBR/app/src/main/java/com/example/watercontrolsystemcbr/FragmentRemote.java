@@ -115,8 +115,8 @@ public class FragmentRemote extends Fragment {
             public void onClick(View v) {
                 if (isConnected)
                 {
-                    if (isPalmAgeExist)
-                    {
+                    //if (isPalmAgeExist)
+                    //{
                         if (systemStatus.equals("On"))
                         {
                             AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
@@ -151,9 +151,9 @@ public class FragmentRemote extends Fragment {
                             customButton.setActivated(false);
                             //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                         }
-                    }
-                    else
-                        Toast.makeText(getActivity(), "Please Fill The Scheme Data!!", Toast.LENGTH_LONG).show();
+                    //}
+                    //else
+                        //Toast.makeText(getActivity(), "Please Fill The Scheme Data!!", Toast.LENGTH_LONG).show();
                 }
                 else
                     Toast.makeText(getActivity(), "Please Connect to The Watering System!!", Toast.LENGTH_LONG).show();
