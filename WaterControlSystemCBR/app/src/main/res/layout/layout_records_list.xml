@@ -9,7 +9,7 @@
         android:id="@+id/tvTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
+        android:layout_weight="2"
         android:text="Temperature"
         android:textAlignment="center"
         android:textColor="#000000" />
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:text="Soil Moisture"
         android:textAlignment="center"
         android:textColor="#000000" />
@@ -28,7 +28,7 @@
         android:id="@+id/tvWaterAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:text="Water Amount"
         android:textAlignment="center"
         android:textColor="#000000" />
@@ -37,7 +37,7 @@
         android:id="@+id/tvSensors"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:text="Sensors Status"
         android:textAlignment="center"
         android:textColor="#000000" />

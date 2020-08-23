@@ -46,7 +46,7 @@ public class FragmentScheme extends Fragment {
     EditText editTextPlantAge;
     Button btnSavePlantAge;
     Spinner spinner;
-    DatabaseReference connStatusRef, palmAgeUpdateRef, palmAgeUpdateDateRef;
+    DatabaseReference connStatusRef, plantIDRef;
 
     private static final String ROOT_URL1 = "http://moayad.eu5.org/Store_Plant_Age.php";
     private static final String ROOT_URL2 = "http://moayad.eu5.org/Retrieve_Plant_Age.php";
@@ -75,8 +75,7 @@ public class FragmentScheme extends Fragment {
         spinner = view.findViewById(R.id.spinner);
 
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
-        palmAgeUpdateRef = FirebaseDatabase.getInstance().getReference("Palm Age Updated");
-        palmAgeUpdateDateRef = FirebaseDatabase.getInstance().getReference("Palm Age Update Date");
+        plantIDRef = FirebaseDatabase.getInstance().getReference("Plant ID");
 
         isConnected = false;
         plantID = 0;
@@ -99,33 +98,6 @@ public class FragmentScheme extends Fragment {
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Toast.makeText(getActivity(), "Connection Issue: " + databaseError.getCode(), Toast.LENGTH_LONG).show();
-            }
-        });
-
-        //Retrieve the auto update date of palm age from the database
-        palmAgeUpdateDateRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.exists())
-                {
-                    if(plantAge > -1)
-                    {
-                        textViewPlantAge.setTextColor(Color.parseColor("#000000"));
-                        textViewPlantAge.setText("Plant Age: " + plantAge + " years old" +"\n(Auto update on " + dataSnapshot.getValue() + ")");
-                    }
-                }
-                /*else if (plantAge > -1)
-                {
-                    if (textViewPlantAge.getText().toString().equals("Plant Age: Not Set"))
-                    {
-                        textViewPlantAge.setTextColor(Color.parseColor("#000000"));
-                        textViewPlantAge.setText("Plant Age: " + plantAge);
-                    }
-                }*/
-            }
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
                 Toast.makeText(getActivity(), "Connection Issue: " + databaseError.getCode(), Toast.LENGTH_LONG).show();
             }
         });
@@ -179,10 +151,8 @@ public class FragmentScheme extends Fragment {
                                         if (textViewPlantAge.getText().toString().equals("Plant Age: Not Set"))
                                         {
                                             textViewPlantAge.setTextColor(Color.parseColor("#000000"));
-                                            textViewPlantAge.setText("Plant Age: " + plantAge);
+                                            textViewPlantAge.setText("Plant Age: " + plantAge + " years old" +"\n(Auto update on " + nextYearDate + ")");
                                         }
-                                        palmAgeUpdateRef.setValue(true);
-                                        //Toast.makeText(getActivity(), "Plant Age Updated Successfully", Toast.LENGTH_LONG).show();
                                     case DialogInterface.BUTTON_NEGATIVE:
                                         break;
                                 }
@@ -246,9 +216,15 @@ public class FragmentScheme extends Fragment {
             @Override
             public void onResponse(String response) {
                 try {
-                    plantAge = Integer.parseInt(String.valueOf(response));
+                    JSONArray jsonarray = new JSONArray(response);
+                    for (i = 0; i < jsonarray.length(); i++)
+                    {
+                        JSONObject jsonobject = jsonarray.getJSONObject(i);
+                        plantAge = jsonobject.getInt("plant_age");
+                        nextYearDate = jsonobject.getString("next_update_date");
+                    }
                     textViewPlantAge.setTextColor(Color.parseColor("#000000"));
-                    textViewPlantAge.setText("Plant Age: " + plantAge);
+                    textViewPlantAge.setText("Plant Age: " + plantAge + " years old" +"\n(Auto update on " + nextYearDate + ")");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -291,10 +267,14 @@ public class FragmentScheme extends Fragment {
                         JSONObject jsonobject = jsonarray.getJSONObject(i);
                         items.add(jsonobject.getString("plant_name"));
                     }
-                    adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_spinner_dropdown_item, items);
-                    spinner.setAdapter(adapter);
-                    plantID = (items.indexOf(spinner.getSelectedItem().toString())) + 1;
-                    RetrievePlantAge();
+                    if (getActivity()!=null)
+                    {
+                        adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_spinner_dropdown_item, items);
+                        spinner.setAdapter(adapter);
+                        plantID = (items.indexOf(spinner.getSelectedItem().toString())) + 1;
+                        plantIDRef.setValue(plantID);
+                        RetrievePlantAge();
+                    }
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

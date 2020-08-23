@@ -28,8 +28,8 @@ public class FragmentRemote extends Fragment {
     TextView textViewSystemStatus;
     Button customButton;
     Switch switchEnableButton;
-    DatabaseReference connStatusRef, palmAgeRef, systemStatusRef, systemStoppedRef;
-    boolean isConnected, isPalmAgeExist;
+    DatabaseReference connStatusRef, plantIDRef, systemStatusRef, systemStoppedRef;
+    boolean isConnected, isPlantSelected;
     String systemStatus;
 
     @Nullable
@@ -42,12 +42,12 @@ public class FragmentRemote extends Fragment {
         customButton = view.findViewById(R.id.custom_button);
 
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
-        palmAgeRef = FirebaseDatabase.getInstance().getReference("Palm Age");
+        plantIDRef = FirebaseDatabase.getInstance().getReference("Plant ID");
         systemStatusRef = FirebaseDatabase.getInstance().getReference("System Status");
         systemStoppedRef = FirebaseDatabase.getInstance().getReference("System Stopped");
 
         isConnected = false;
-        isPalmAgeExist = false;
+        isPlantSelected = false;
         systemStatus = "";
 
         //Check connection status
@@ -69,11 +69,11 @@ public class FragmentRemote extends Fragment {
         });
 
         //Check if palm age is set
-        palmAgeRef.addValueEventListener(new ValueEventListener() {
+        plantIDRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists())
-                    isPalmAgeExist = true;
+                    isPlantSelected = true;
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
@@ -115,8 +115,8 @@ public class FragmentRemote extends Fragment {
             public void onClick(View v) {
                 if (isConnected)
                 {
-                    //if (isPalmAgeExist)
-                    //{
+                    if (isPlantSelected)
+                    {
                         if (systemStatus.equals("On"))
                         {
                             AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
@@ -151,9 +151,9 @@ public class FragmentRemote extends Fragment {
                             customButton.setActivated(false);
                             //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                         }
-                    //}
-                    //else
-                        //Toast.makeText(getActivity(), "Please Fill The Scheme Data!!", Toast.LENGTH_LONG).show();
+                    }
+                    else
+                        Toast.makeText(getActivity(), "Please Fill The Scheme Data!!", Toast.LENGTH_LONG).show();
                 }
                 else
                     Toast.makeText(getActivity(), "Please Connect to The Watering System!!", Toast.LENGTH_LONG).show();

@@ -43,7 +43,7 @@ public class FragmentRecords extends Fragment {
     private static final String password = "Moayad258";
     private static final String dbname  = "148523";
     Double temperature, soilMoisture, waterAmount;
-    String dateTime;
+    String sensorsStatus ,dateTime;
     int i;
 
     @Nullable
@@ -113,8 +113,9 @@ public class FragmentRecords extends Fragment {
                         temperature = jsonobject.getDouble("temp_level");
                         soilMoisture = jsonobject.getDouble("soil_mois_level");
                         waterAmount = jsonobject.getDouble("water_amount");
+                        sensorsStatus = jsonobject.getString("sensors_status");
                         dateTime = jsonobject.getString("date_time");
-                        recordsList.add(new Records(temperature,soilMoisture,waterAmount,dateTime));
+                        recordsList.add(new Records(Math.round(temperature*10)/10.0,Math.round(soilMoisture*10)/10.0,Math.round(waterAmount*10)/10.0,sensorsStatus,dateTime));
                     }
                     if (getActivity()!=null)
                     {

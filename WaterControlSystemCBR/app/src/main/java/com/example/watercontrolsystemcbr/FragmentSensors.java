@@ -21,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 public class FragmentSensors extends Fragment {
 
     TextView textViewTemperatureSensorStatus, textViewSoilMoistureSensorStatus;
-    DatabaseReference connStatusRef, systemStatusRef, tempSensorRef, soilMoistureSensorRef;
+    DatabaseReference connStatusRef, systemStatusRef, tempSensorRef, soilMoisSensorRef;
     boolean isConnected, tempSensorStatus, soilMoistureSensorStatus;
     String systemStatus;
 
@@ -36,7 +36,7 @@ public class FragmentSensors extends Fragment {
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
         systemStatusRef = FirebaseDatabase.getInstance().getReference("System Status");
         tempSensorRef = FirebaseDatabase.getInstance().getReference("Temperature Sensor Status");
-        soilMoistureSensorRef = FirebaseDatabase.getInstance().getReference("Soil Moisture Sensor Status");
+        soilMoisSensorRef = FirebaseDatabase.getInstance().getReference("Soil Moisture Sensor Status");
 
         isConnected = false;
         systemStatus = "";
@@ -57,7 +57,7 @@ public class FragmentSensors extends Fragment {
                         textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Not Available");
                         textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#8A8A8A"));
                         tempSensorRef.removeValue();
-                        soilMoistureSensorRef.removeValue();
+                        soilMoisSensorRef.removeValue();
                     }
                 }
             }
@@ -95,13 +95,11 @@ public class FragmentSensors extends Fragment {
                             {
                                 textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Running");
                                 textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
-                                //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                             }
                             else
                             {
                                 textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Not Running");
                                 textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#FF0000"));
-                                //textViewSoilMoistureSensorStatus.setTextColor(getActivity().getResources().getColor(R.color.red));
                             }
                         }
                     }
@@ -115,7 +113,7 @@ public class FragmentSensors extends Fragment {
         });
 
         //Check and display soil moisture sensor status
-        soilMoistureSensorRef.addValueEventListener(new ValueEventListener() {
+        soilMoisSensorRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (isConnected)
@@ -129,13 +127,11 @@ public class FragmentSensors extends Fragment {
                             {
                                 textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Running");
                                 textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
-                                //textViewSoilMoistureSensorStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                             }
                             else
                             {
                                 textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Not Running");
                                 textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#FF0000"));
-                                //textViewSoilMoistureSensorStatus.setTextColor(getActivity().getResources().getColor(R.color.red));
                             }
                         }
                     }

@@ -32,6 +32,7 @@ public class RecordsList extends ArrayAdapter {
         TextView tvTemperature = listViewItem.findViewById(R.id.tvTemperature);
         TextView tvSoilMoisture = listViewItem.findViewById(R.id.tvSoilMoisture);
         TextView tvWaterAmount = listViewItem.findViewById(R.id.tvWaterAmount);
+        TextView tvSensorsStatus = listViewItem.findViewById(R.id.tvSensors);
         TextView tvDateTime = listViewItem.findViewById(R.id.tvDateTime);
 
         Records record = records.get(position);
@@ -39,6 +40,7 @@ public class RecordsList extends ArrayAdapter {
         tvTemperature.setText(String.valueOf(record.getTemperature()));
         tvSoilMoisture.setText(String.valueOf(record.getSoilMoisture()));
         tvWaterAmount.setText(String.valueOf(record.getWaterAmount()));
+        tvSensorsStatus.setText(String.valueOf(record.getSensorsStatus()));
         tvDateTime.setText(record.getDateTime());
 
         return listViewItem;
