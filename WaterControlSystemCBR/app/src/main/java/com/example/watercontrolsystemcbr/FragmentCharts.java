@@ -156,6 +156,7 @@ public class FragmentCharts extends Fragment {
                 params.put("username", serverData.getUsername());
                 params.put("password", serverData.getPassword());
                 params.put("dbname", serverData.getDbname());
+                params.put("RETRIEVE_RECORDS", "1");
                 return params;
             }
         };

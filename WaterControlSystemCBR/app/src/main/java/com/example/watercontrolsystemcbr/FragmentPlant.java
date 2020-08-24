@@ -185,7 +185,7 @@ public class FragmentPlant extends Fragment {
     private void StorePlantAge()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.getRootUrl1(), new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -211,6 +211,7 @@ public class FragmentPlant extends Fragment {
                 params.put("plantID", String.valueOf(plantID));
                 params.put("plantAge", String.valueOf(plantAge));
                 params.put("nextYearDate", nextYearDate);
+                params.put("STORE_PLANT_AGE", "1");
                 return params;
             }
         };
@@ -220,7 +221,7 @@ public class FragmentPlant extends Fragment {
     private void RetrievePlantAge(final int plantID)
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.getRootUrl2(), new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -253,6 +254,7 @@ public class FragmentPlant extends Fragment {
                 params.put("password", serverData.getPassword());
                 params.put("dbname", serverData.getDbname());
                 params.put("plantID", String.valueOf(plantID));
+                params.put("RETRIEVE_PLANT_AGE", "1");
                 return params;
             }
         };
@@ -262,7 +264,7 @@ public class FragmentPlant extends Fragment {
     private void RetrievePlantsNames()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.getRootUrl3(), new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -299,6 +301,7 @@ public class FragmentPlant extends Fragment {
                 params.put("username", serverData.getUsername());
                 params.put("password", serverData.getPassword());
                 params.put("dbname", serverData.getDbname());
+                params.put("RETRIEVE_PLANTS_NAMES", "1");
                 return params;
             }
         };
