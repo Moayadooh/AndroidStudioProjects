@@ -109,7 +109,7 @@ public class FragmentCharts extends Fragment {
     private void RetrieveRecords()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.ROOT_URL, new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl(), new Response.Listener<String>() {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onResponse(String response) {
@@ -152,10 +152,10 @@ public class FragmentCharts extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", serverData.hostname);
-                params.put("username", serverData.username);
-                params.put("password", serverData.password);
-                params.put("dbname", serverData.dbname);
+                params.put("hostname", serverData.getHostname());
+                params.put("username", serverData.getUsername());
+                params.put("password", serverData.getPassword());
+                params.put("dbname", serverData.getDbname());
                 return params;
             }
         };

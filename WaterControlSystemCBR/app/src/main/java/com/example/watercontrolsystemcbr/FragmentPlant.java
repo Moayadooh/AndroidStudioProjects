@@ -185,7 +185,7 @@ public class FragmentPlant extends Fragment {
     private void StorePlantAge()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.ROOT_URL1, new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl1(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -204,10 +204,10 @@ public class FragmentPlant extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", serverData.hostname);
-                params.put("username", serverData.username);
-                params.put("password", serverData.password);
-                params.put("dbname", serverData.dbname);
+                params.put("hostname", serverData.getHostname());
+                params.put("username", serverData.getUsername());
+                params.put("password", serverData.getPassword());
+                params.put("dbname", serverData.getDbname());
                 params.put("plantID", String.valueOf(plantID));
                 params.put("plantAge", String.valueOf(plantAge));
                 params.put("nextYearDate", nextYearDate);
@@ -220,7 +220,7 @@ public class FragmentPlant extends Fragment {
     private void RetrievePlantAge(final int plantID)
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.ROOT_URL2, new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl2(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -248,10 +248,10 @@ public class FragmentPlant extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", serverData.hostname);
-                params.put("username", serverData.username);
-                params.put("password", serverData.password);
-                params.put("dbname", serverData.dbname);
+                params.put("hostname", serverData.getHostname());
+                params.put("username", serverData.getUsername());
+                params.put("password", serverData.getPassword());
+                params.put("dbname", serverData.getDbname());
                 params.put("plantID", String.valueOf(plantID));
                 return params;
             }
@@ -262,7 +262,7 @@ public class FragmentPlant extends Fragment {
     private void RetrievePlantsNames()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, serverData.ROOT_URL3, new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl3(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -295,10 +295,10 @@ public class FragmentPlant extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", serverData.hostname);
-                params.put("username", serverData.username);
-                params.put("password", serverData.password);
-                params.put("dbname", serverData.dbname);
+                params.put("hostname", serverData.getHostname());
+                params.put("username", serverData.getUsername());
+                params.put("password", serverData.getPassword());
+                params.put("dbname", serverData.getDbname());
                 return params;
             }
         };
