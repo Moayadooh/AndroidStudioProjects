@@ -37,11 +37,7 @@ public class FragmentRecords extends Fragment {
     boolean isConnected;
     ListView listViewRecords;
     List<Records> recordsList;
-    private static final String ROOT_URL = "http://moayad.ueuo.com/Application_Server.php";
-    private static final String hostname = "";
-    private static final String username  = "";
-    private static final String password = "";
-    private static final String dbname  = "";
+    ServerData serverData = new ServerData();
     Double temperature, soilMoisture, waterAmount;
     String dateTime;
     int i;
@@ -101,7 +97,7 @@ public class FragmentRecords extends Fragment {
     private void RetrieveRecords()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, ROOT_URL, new Response.Listener<String>() {
+                Request.Method.POST, serverData.getRootUrl(), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -136,10 +132,10 @@ public class FragmentRecords extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", hostname);
-                params.put("username", username);
-                params.put("password", password);
-                params.put("dbname", dbname);
+                params.put("hostname", serverData.getHostname());
+                params.put("username", serverData.getUsername());
+                params.put("password", serverData.getPassword());
+                params.put("dbname", serverData.getDbname());
                 return params;
             }
         };
