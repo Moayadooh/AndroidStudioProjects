@@ -7,9 +7,9 @@
         android:title="Connection" />
 
     <item
-        android:id="@+id/nav_scheme"
-        android:icon="@drawable/ic_palm_tree"
-        android:title="Scheme" />
+        android:id="@+id/nav_plant"
+        android:icon="@drawable/ic_plant"
+        android:title="Plant" />
 
     <item
         android:id="@+id/nav_remote"

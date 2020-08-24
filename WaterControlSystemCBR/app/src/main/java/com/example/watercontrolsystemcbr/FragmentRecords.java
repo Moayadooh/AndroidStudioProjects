@@ -37,11 +37,7 @@ public class FragmentRecords extends Fragment {
     boolean isConnected;
     ListView listViewRecords;
     List<Records> recordsList;
-    private static final String ROOT_URL = "http://moayad.eu5.org/Application_Server_CBR.php";
-    private static final String hostname = "localhost";
-    private static final String username  = "148523";
-    private static final String password = "Moayad258";
-    private static final String dbname  = "148523";
+    ServerData serverData;
     Double temperature, soilMoisture, waterAmount;
     String sensorsStatus ,dateTime;
     int i;
@@ -54,6 +50,7 @@ public class FragmentRecords extends Fragment {
 
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
         recordsUpdatedRef = FirebaseDatabase.getInstance().getReference("Records Updated");
+        serverData = new ServerData();
 
         isConnected = false;
 
@@ -78,7 +75,7 @@ public class FragmentRecords extends Fragment {
             }
         });
 
-        //Retrieve watering operations records from database server
+        //Retrieve watering operations records from database
         recordsUpdatedRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -101,7 +98,7 @@ public class FragmentRecords extends Fragment {
     private void RetrieveRecords()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, ROOT_URL, new Response.Listener<String>() {
+                Request.Method.POST, serverData.ROOT_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -137,10 +134,10 @@ public class FragmentRecords extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", hostname);
-                params.put("username", username);
-                params.put("password", password);
-                params.put("dbname", dbname);
+                params.put("hostname", serverData.hostname);
+                params.put("username", serverData.username);
+                params.put("password", serverData.password);
+                params.put("dbname", serverData.dbname);
                 return params;
             }
         };

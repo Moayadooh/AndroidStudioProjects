@@ -68,7 +68,7 @@ public class FragmentRemote extends Fragment {
             }
         });
 
-        //Check if palm age is set
+        //Check if plant age is set
         plantIDRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -92,13 +92,11 @@ public class FragmentRemote extends Fragment {
                     {
                         textViewSystemStatus.setText("SYSTEM IS ON");
                         textViewSystemStatus.setTextColor(Color.parseColor("#2FFF00"));
-                        //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                     }
                     else
                     {
                         textViewSystemStatus.setText("SYSTEM IS OFF");
                         textViewSystemStatus.setTextColor(Color.parseColor("#FF0000"));
-                        //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.red));
                     }
                 }
             }
@@ -108,7 +106,7 @@ public class FragmentRemote extends Fragment {
             }
         });
 
-        //Turn on/off the watering system by the custom button
+        //Turn on/off the water system by the custom button
         customButton.setEnabled(false);
         customButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -131,7 +129,6 @@ public class FragmentRemote extends Fragment {
                                             textViewSystemStatus.setText("SYSTEM IS OFF");
                                             textViewSystemStatus.setTextColor(Color.parseColor("#FF0000"));
                                             customButton.setActivated(true);
-                                            //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.red));
                                             systemStoppedRef.setValue(true);
                                         case DialogInterface.BUTTON_NEGATIVE:
                                             break;
@@ -149,11 +146,10 @@ public class FragmentRemote extends Fragment {
                             textViewSystemStatus.setText("SYSTEM IS ON");
                             textViewSystemStatus.setTextColor(Color.parseColor("#2FFF00"));
                             customButton.setActivated(false);
-                            //textViewSystemStatus.setTextColor(getActivity().getResources().getColor(R.color.green));
                         }
                     }
                     else
-                        Toast.makeText(getActivity(), "Please Fill The Scheme Data!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), "Please Fill The Plant Data!!", Toast.LENGTH_LONG).show();
                 }
                 else
                     Toast.makeText(getActivity(), "Please Connect to The Watering System!!", Toast.LENGTH_LONG).show();

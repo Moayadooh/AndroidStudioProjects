@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_connect:
                     selectedFragment = new FragmentConnect();
                     break;
-                case R.id.nav_scheme:
-                    selectedFragment = new FragmentScheme();
+                case R.id.nav_plant:
+                    selectedFragment = new FragmentPlant();
                     break;
                 case R.id.nav_remote:
                     selectedFragment = new FragmentRemote();

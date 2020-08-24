@@ -40,22 +40,14 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FragmentScheme extends Fragment {
+public class FragmentPlant extends Fragment {
 
     TextView textViewPlantAge;
     EditText editTextPlantAge;
     Button btnSavePlantAge;
     Spinner spinner;
     DatabaseReference connStatusRef, plantIDRef;
-
-    private static final String ROOT_URL1 = "http://moayad.eu5.org/Store_Plant_Age.php";
-    private static final String ROOT_URL2 = "http://moayad.eu5.org/Retrieve_Plant_Age.php";
-    private static final String ROOT_URL3 = "http://moayad.eu5.org/Retrieve_Plants_Names.php";
-    private static final String hostname = "localhost";
-    private static final String username  = "148523";
-    private static final String password = "Moayad258";
-    private static final String dbname  = "148523";
-
+    ServerData serverData;
     boolean isConnected;
     int plantID;
     int plantAge;
@@ -67,7 +59,7 @@ public class FragmentScheme extends Fragment {
     @Override
     public View onCreateView(@NonNull final LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_scheme, container, false);
+        View view = inflater.inflate(R.layout.fragment_plant, container, false);
 
         textViewPlantAge = view.findViewById(R.id.textViewPlantAge);
         editTextPlantAge = view.findViewById(R.id.editTextPlantAge);
@@ -76,6 +68,7 @@ public class FragmentScheme extends Fragment {
 
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
         plantIDRef = FirebaseDatabase.getInstance().getReference("Plant ID");
+        serverData = new ServerData();
 
         isConnected = false;
         plantID = 0;
@@ -112,7 +105,23 @@ public class FragmentScheme extends Fragment {
             }
         });
 
-        //Store palm age in the database
+        plantIDRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists())
+                {
+                    plantID = Integer.parseInt(String.valueOf(snapshot.getValue()));
+                    RetrievePlantAge(plantID);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(getActivity(), "Connection Issue: " + error.getCode(), Toast.LENGTH_LONG).show();
+            }
+        });
+
+        //Store plant age in the database
         btnSavePlantAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -120,14 +129,14 @@ public class FragmentScheme extends Fragment {
                 {
                     strPlantAge =  editTextPlantAge.getText().toString();
                     if (strPlantAge.equals(""))
-                        Toast.makeText(getContext(), "Please Enter Palm Age!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(), "Please Enter Plant Age!!", Toast.LENGTH_LONG).show();
                     else if (strPlantAge.equals("0"))
-                        Toast.makeText(getContext(), "Please Enter a valid Palm Age!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(), "Please Enter a valid Plant Age!!", Toast.LENGTH_LONG).show();
                     else
                     {
                         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                         builder.setTitle("Conformation");
-                        builder.setMessage("Are you sure you want to update the palm age?");
+                        builder.setMessage("Are you sure you want to update the plant age?");
                         DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -146,8 +155,9 @@ public class FragmentScheme extends Fragment {
                                         }
                                         calendar.add(Calendar.DATE, 360);  // number of days to add
                                         nextYearDate = simpleDateFormat.format(calendar.getTime());  // dt is now the new date
+                                        plantIDRef.setValue(plantID);
                                         StorePlantAge();
-                                        RetrievePlantAge();
+                                        RetrievePlantAge(plantID);
                                         if (textViewPlantAge.getText().toString().equals("Plant Age: Not Set"))
                                         {
                                             textViewPlantAge.setTextColor(Color.parseColor("#000000"));
@@ -165,18 +175,17 @@ public class FragmentScheme extends Fragment {
                     }
                 }
                 else
-                    Toast.makeText(getActivity(), "Please Connect to The Watering System!!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Please Connect to The Water System!!", Toast.LENGTH_LONG).show();
             }
         });
 
         return view;
     }
 
-    //Store plant age to the database
     private void StorePlantAge()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, ROOT_URL1, new Response.Listener<String>() {
+                Request.Method.POST, serverData.ROOT_URL1, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -195,10 +204,10 @@ public class FragmentScheme extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", hostname);
-                params.put("username", username);
-                params.put("password", password);
-                params.put("dbname", dbname);
+                params.put("hostname", serverData.hostname);
+                params.put("username", serverData.username);
+                params.put("password", serverData.password);
+                params.put("dbname", serverData.dbname);
                 params.put("plantID", String.valueOf(plantID));
                 params.put("plantAge", String.valueOf(plantAge));
                 params.put("nextYearDate", nextYearDate);
@@ -208,11 +217,10 @@ public class FragmentScheme extends Fragment {
         RequestHandler.getInstance(getActivity()).addToRequestQueue(stringRequest);
     }
 
-    //Retrieve plant age from the database
-    private void RetrievePlantAge()
+    private void RetrievePlantAge(final int plantID)
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, ROOT_URL2, new Response.Listener<String>() {
+                Request.Method.POST, serverData.ROOT_URL2, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -240,10 +248,10 @@ public class FragmentScheme extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", hostname);
-                params.put("username", username);
-                params.put("password", password);
-                params.put("dbname", dbname);
+                params.put("hostname", serverData.hostname);
+                params.put("username", serverData.username);
+                params.put("password", serverData.password);
+                params.put("dbname", serverData.dbname);
                 params.put("plantID", String.valueOf(plantID));
                 return params;
             }
@@ -251,11 +259,10 @@ public class FragmentScheme extends Fragment {
         RequestHandler.getInstance(getContext()).addToRequestQueue(stringRequest);
     }
 
-    //Retrieve plants names from the database
     private void RetrievePlantsNames()
     {
         StringRequest stringRequest = new StringRequest(
-                Request.Method.POST, ROOT_URL3, new Response.Listener<String>() {
+                Request.Method.POST, serverData.ROOT_URL3, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 try {
@@ -272,8 +279,6 @@ public class FragmentScheme extends Fragment {
                         adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_spinner_dropdown_item, items);
                         spinner.setAdapter(adapter);
                         plantID = (items.indexOf(spinner.getSelectedItem().toString())) + 1;
-                        plantIDRef.setValue(plantID);
-                        RetrievePlantAge();
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -290,10 +295,10 @@ public class FragmentScheme extends Fragment {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
-                params.put("hostname", hostname);
-                params.put("username", username);
-                params.put("password", password);
-                params.put("dbname", dbname);
+                params.put("hostname", serverData.hostname);
+                params.put("username", serverData.username);
+                params.put("password", serverData.password);
+                params.put("dbname", serverData.dbname);
                 return params;
             }
         };

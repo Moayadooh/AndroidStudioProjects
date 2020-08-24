@@ -20,9 +20,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class FragmentSensors extends Fragment {
 
-    TextView textViewTemperatureSensorStatus, textViewSoilMoistureSensorStatus;
+    TextView textViewTempSensorStatus, textViewSoilMoisSensorStatus;
     DatabaseReference connStatusRef, systemStatusRef, tempSensorRef, soilMoisSensorRef;
-    boolean isConnected, tempSensorStatus, soilMoistureSensorStatus;
+    boolean isConnected, tempSensorStatus, soilMoisSensorStatus;
     String systemStatus;
 
     @Nullable
@@ -30,8 +30,8 @@ public class FragmentSensors extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_sensors, container, false);
 
-        textViewTemperatureSensorStatus = view.findViewById(R.id.textViewTemperatureSensorStatus);
-        textViewSoilMoistureSensorStatus = view.findViewById(R.id.textViewSoilMoistureSensorStatus);
+        textViewTempSensorStatus = view.findViewById(R.id.textViewTemperatureSensorStatus);
+        textViewSoilMoisSensorStatus = view.findViewById(R.id.textViewSoilMoistureSensorStatus);
 
         connStatusRef = FirebaseDatabase.getInstance().getReference("Connection Status");
         systemStatusRef = FirebaseDatabase.getInstance().getReference("System Status");
@@ -52,10 +52,10 @@ public class FragmentSensors extends Fragment {
                     else
                     {
                         isConnected = false;
-                        textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Not Available");
-                        textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#8A8A8A"));
-                        textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Not Available");
-                        textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#8A8A8A"));
+                        textViewTempSensorStatus.setText("Temperature Sensor Status: Not Available");
+                        textViewTempSensorStatus.setTextColor(Color.parseColor("#8A8A8A"));
+                        textViewSoilMoisSensorStatus.setText("Soil Moisture Sensor Status: Not Available");
+                        textViewSoilMoisSensorStatus.setTextColor(Color.parseColor("#8A8A8A"));
                         tempSensorRef.removeValue();
                         soilMoisSensorRef.removeValue();
                     }
@@ -93,13 +93,13 @@ public class FragmentSensors extends Fragment {
                             tempSensorStatus = (boolean) snapshot.getValue();
                             if (tempSensorStatus)
                             {
-                                textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Running");
-                                textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
+                                textViewTempSensorStatus.setText("Temperature Sensor Status: Running");
+                                textViewTempSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
                             }
                             else
                             {
-                                textViewTemperatureSensorStatus.setText("Temperature Sensor Status: Not Running");
-                                textViewTemperatureSensorStatus.setTextColor(Color.parseColor("#FF0000"));
+                                textViewTempSensorStatus.setText("Temperature Sensor Status: Not Running");
+                                textViewTempSensorStatus.setTextColor(Color.parseColor("#FF0000"));
                             }
                         }
                     }
@@ -122,16 +122,16 @@ public class FragmentSensors extends Fragment {
                     {
                         if (dataSnapshot.exists())
                         {
-                            soilMoistureSensorStatus = (boolean) dataSnapshot.getValue();
-                            if (soilMoistureSensorStatus)
+                            soilMoisSensorStatus = (boolean) dataSnapshot.getValue();
+                            if (soilMoisSensorStatus)
                             {
-                                textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Running");
-                                textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
+                                textViewSoilMoisSensorStatus.setText("Soil Moisture Sensor Status: Running");
+                                textViewSoilMoisSensorStatus.setTextColor(Color.parseColor("#2FFF00"));
                             }
                             else
                             {
-                                textViewSoilMoistureSensorStatus.setText("Soil Moisture Sensor Status: Not Running");
-                                textViewSoilMoistureSensorStatus.setTextColor(Color.parseColor("#FF0000"));
+                                textViewSoilMoisSensorStatus.setText("Soil Moisture Sensor Status: Not Running");
+                                textViewSoilMoisSensorStatus.setTextColor(Color.parseColor("#FF0000"));
                             }
                         }
                     }

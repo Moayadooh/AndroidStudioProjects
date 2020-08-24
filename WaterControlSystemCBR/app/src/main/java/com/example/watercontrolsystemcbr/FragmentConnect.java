@@ -159,7 +159,6 @@ public class FragmentConnect extends Fragment {
                         isConnected = true;
                         textViewConnectStatus.setText("CONNECTED");
                         textViewConnectStatus.setTextColor(Color.parseColor("#2FFF00"));
-                        //textViewConnect.setTextColor(getActivity().getResources().getColor(R.color.green));
                         textViewVerificationKey.setText("");
                         editTextNum1.setVisibility(View.INVISIBLE);
                         editTextNum2.setVisibility(View.INVISIBLE);
@@ -174,7 +173,6 @@ public class FragmentConnect extends Fragment {
                         isConnected = false;
                         textViewConnectStatus.setText("NOT CONNECTED");
                         textViewConnectStatus.setTextColor(Color.parseColor("#FF0000"));
-                        //textViewConnect.setTextColor(getActivity().getResources().getColor(R.color.red));
                         textViewVerificationKey.setText("Enter Verification Key Here");
                         editTextNum1.setVisibility(View.VISIBLE);
                         editTextNum2.setVisibility(View.VISIBLE);
@@ -191,7 +189,7 @@ public class FragmentConnect extends Fragment {
             }
         });
 
-        //Send connection or disconnection request to the watering system
+        //Send connection or disconnection request to the water system
         buttonConnection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -24,7 +24,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 makeNotificationChannel("CHANNEL_1", "Channel", NotificationManager.IMPORTANCE_DEFAULT);
             NotificationCompat.Builder notification = new NotificationCompat.Builder(getApplicationContext(), "CHANNEL_1");
             notification
-                    .setSmallIcon(R.drawable.palm)
+                    .setSmallIcon(R.drawable.plant)
                     .setColor(ContextCompat.getColor(getApplicationContext(), R.color.green))
                     .setContentTitle(title)
                     .setContentText(message)
