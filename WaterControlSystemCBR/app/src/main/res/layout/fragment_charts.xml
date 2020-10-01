@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fadeScrollbars="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <LinearLayout
         android:id="@+id/tvTitles"
@@ -18,10 +19,18 @@
             android:background="@color/white"></com.github.mikephil.charting.charts.LineChart>
 
         <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/soilmoisturelinechart"
+            android:id="@+id/humiditylinechart"
             android:layout_width="match_parent"
             android:layout_height="175dp"
             android:layout_below="@+id/temperaturelinechart"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"></com.github.mikephil.charting.charts.LineChart>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/soilmoisturelinechart"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@+id/humiditylinechart"
             android:layout_marginTop="10dp"
             android:background="@color/white"></com.github.mikephil.charting.charts.LineChart>
 
@@ -35,4 +44,4 @@
     </LinearLayout>
 
 
-</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

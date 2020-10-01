@@ -15,6 +15,15 @@
         android:textColor="#000000" />
 
     <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="humidity"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <TextView
         android:id="@+id/tvSoilMoisture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +53,7 @@
 
     <TextView
         android:id="@+id/tvDateTime"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:text="Date and Time"

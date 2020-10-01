@@ -45,11 +45,11 @@ public class FragmentCharts extends Fragment {
     DatabaseReference connStatusRef, recordsUpdatedRef;
     boolean isConnected;
     ServerData serverData;
-    Double temperature, soilMoisture, waterAmount;
+    Double temperature, humidity, soilMoisture, waterAmount;
     String dateTime;
-    private LineChart temperatureLineChart, soilMoistureLineChart, waterAmountLineChart;
+    private LineChart temperatureLineChart, humidityLineChart, soilMoistureLineChart, waterAmountLineChart;
     int i;
-    Double[] temperatureDataSet, soilMoistureDataSet, waterAmountDataSet;
+    Double[] temperatureDataSet, humidityDataSet, soilMoistureDataSet, waterAmountDataSet;
     String[] dates;
 
     @Nullable
@@ -65,6 +65,7 @@ public class FragmentCharts extends Fragment {
         isConnected = false;
 
         temperatureLineChart = view.findViewById(R.id.temperaturelinechart);
+        humidityLineChart = view.findViewById(R.id.humiditylinechart);
         soilMoistureLineChart = view.findViewById(R.id.soilmoisturelinechart);
         waterAmountLineChart = view.findViewById(R.id.wateramountlinechart);
 
@@ -116,6 +117,7 @@ public class FragmentCharts extends Fragment {
                 try {
                     JSONArray jsonarray = new JSONArray(response);
                     temperatureDataSet = new Double[jsonarray.length()];
+                    humidityDataSet = new Double[jsonarray.length()];
                     soilMoistureDataSet = new Double[jsonarray.length()];
                     waterAmountDataSet = new Double[jsonarray.length()];
                     dates = new String[jsonarray.length()];
@@ -124,6 +126,8 @@ public class FragmentCharts extends Fragment {
                         JSONObject jsonobject = jsonarray.getJSONObject(i);
                         temperature = jsonobject.getDouble("temp_level");
                         temperatureDataSet[(jsonarray.length()-1-i)] = temperature;
+                        humidity = jsonobject.getDouble("humidity");
+                        humidityDataSet[(jsonarray.length()-1-i)] = humidity;
                         soilMoisture = jsonobject.getDouble("soil_mois_level");
                         soilMoistureDataSet[(jsonarray.length()-1-i)] = soilMoisture;
                         waterAmount = jsonobject.getDouble("water_amount");
@@ -134,6 +138,7 @@ public class FragmentCharts extends Fragment {
                     if (getActivity()!=null)
                     {
                         MPChart(temperatureLineChart,temperatureDataSet,dates,0,50,"Temperature (°C)","Temperature");
+                        MPChart(humidityLineChart,humidityDataSet,dates,0,100,"Humidity","Humidity");
                         MPChart(soilMoistureLineChart,soilMoistureDataSet,dates,0,100,"Soil Moisture (%)","Soil Moisture");
                         MPChart(waterAmountLineChart,waterAmountDataSet,dates,0,250,"Water Amount (Liter)","Water Amount");
                     }
@@ -191,6 +196,8 @@ public class FragmentCharts extends Fragment {
 
         if (label=="Temperature (°C)")
             set1.setColor(Color.rgb(1f,0.75f,0.5f));
+        else if (label=="Humidity")
+            set1.setColor(Color.rgb(0.1f,2f,0.1f));
         else if (label=="Soil Moisture (%)")
             set1.setColor(Color.rgb(0.5f,1f,0.0f));
         else

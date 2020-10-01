@@ -30,6 +30,7 @@ public class RecordsList extends ArrayAdapter {
         View listViewItem = inflater.inflate(R.layout.layout_records_list, null, true);
 
         TextView tvTemperature = listViewItem.findViewById(R.id.tvTemperature);
+        TextView tvHumidity = listViewItem.findViewById(R.id.tvHumidity);
         TextView tvSoilMoisture = listViewItem.findViewById(R.id.tvSoilMoisture);
         TextView tvWaterAmount = listViewItem.findViewById(R.id.tvWaterAmount);
         TextView tvSensorsStatus = listViewItem.findViewById(R.id.tvSensors);
@@ -38,6 +39,7 @@ public class RecordsList extends ArrayAdapter {
         Records record = records.get(position);
 
         tvTemperature.setText(String.valueOf(record.getTemperature()));
+        tvHumidity.setText(String.valueOf(record.getHumidity()));
         tvSoilMoisture.setText(String.valueOf(record.getSoilMoisture()));
         tvWaterAmount.setText(String.valueOf(record.getWaterAmount()));
         tvSensorsStatus.setText(String.valueOf(record.getSensorsStatus()));

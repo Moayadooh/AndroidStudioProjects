@@ -38,7 +38,7 @@ public class FragmentRecords extends Fragment {
     ListView listViewRecords;
     List<Records> recordsList;
     ServerData serverData;
-    Double temperature, soilMoisture, waterAmount;
+    Double temperature, humidity, soilMoisture, waterAmount;
     String sensorsStatus ,dateTime;
     int i;
 
@@ -108,11 +108,12 @@ public class FragmentRecords extends Fragment {
                     {
                         JSONObject jsonobject = jsonarray.getJSONObject(i);
                         temperature = jsonobject.getDouble("temp_level");
+                        humidity = jsonobject.getDouble("humidity");
                         soilMoisture = jsonobject.getDouble("soil_mois_level");
                         waterAmount = jsonobject.getDouble("water_amount");
                         sensorsStatus = jsonobject.getString("sensors_status");
                         dateTime = jsonobject.getString("date_time");
-                        recordsList.add(new Records(Math.round(temperature*10)/10.0,Math.round(soilMoisture*10)/10.0,Math.round(waterAmount*10)/10.0,sensorsStatus,dateTime));
+                        recordsList.add(new Records(Math.round(temperature*10)/10.0,Math.round(humidity*10)/10.0,Math.round(soilMoisture*10)/10.0,Math.round(waterAmount*10)/10.0,sensorsStatus,dateTime));
                     }
                     if (getActivity()!=null)
                     {

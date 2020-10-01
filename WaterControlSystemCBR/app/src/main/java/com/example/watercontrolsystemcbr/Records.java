@@ -2,6 +2,7 @@ package com.example.watercontrolsystemcbr;
 
 public class Records {
     double temperature;
+    double humidity;
     double soilMoisture;
     double waterAmount;
     String sensorsStatus;
@@ -11,8 +12,9 @@ public class Records {
         //Empty constructor
     }
 
-    public Records(double temperature, double soilMoisture, double waterAmount, String sensorsStatus, String dateTime) {
+    public Records(double temperature, double humidity, double soilMoisture, double waterAmount, String sensorsStatus, String dateTime) {
         this.temperature = temperature;
+        this.humidity = humidity;
         this.soilMoisture = soilMoisture;
         this.waterAmount = waterAmount;
         this.sensorsStatus = sensorsStatus;
@@ -21,6 +23,10 @@ public class Records {
 
     public double getTemperature() {
         return temperature;
+    }
+
+    public double getHumidity() {
+        return humidity;
     }
 
     public double getSoilMoisture() {
