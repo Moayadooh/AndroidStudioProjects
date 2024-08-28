@@ -2,10 +2,11 @@ package com.moayad.project;
 
 import android.content.Intent;
 import android.graphics.Paint;
+import android.graphics.text.LineBreaker;
 import android.net.Uri;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
 import android.view.View;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvDescription = findViewById(R.id.tvDescription);
-        tvDescription.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
+        tvDescription.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         tvLink = findViewById(R.id.tvLink);
         tvLink.setPaintFlags(tvLink.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
         tvLink.setOnClickListener(new View.OnClickListener() {
