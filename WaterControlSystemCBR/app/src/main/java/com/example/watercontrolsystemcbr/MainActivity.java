@@ -27,7 +27,20 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
             Fragment selectedFragment = null;
 
-            switch (menuItem.getItemId()){
+            int item = menuItem.getItemId();
+            if (item == R.id.nav_connect) {
+                selectedFragment = new FragmentConnect();
+            } else if (item == R.id.nav_plant) {
+                selectedFragment = new FragmentPlant();
+            } else if (item == R.id.nav_remote) {
+                selectedFragment = new FragmentRemote();
+            } else if (item == R.id.nav_sensors) {
+                selectedFragment = new FragmentSensors();
+            } else if (item == R.id.nav_trends) {
+                selectedFragment = new FragmentTrends();
+            }
+
+            /*switch (menuItem.getItemId()){
                 case R.id.nav_connect:
                     selectedFragment = new FragmentConnect();
                     break;
@@ -43,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_trends:
                     selectedFragment = new FragmentTrends();
                     break;
-            }
+            }*/
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
             return true;
